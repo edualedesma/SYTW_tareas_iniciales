@@ -23,5 +23,7 @@
 
 No hizo falta la instalación de git, puesto que previamente estaba instalado.
 Para comprobar la vesión de git ejecutamos 
+
 `$ git --version`
+
 ![instalacion de rvm](https://github.com/alu3286/SYTW_tareas_iniciales/blob/master/images/3.png)
