@@ -6,7 +6,7 @@
 	Como ya tenía una versión previa, sólo tuve que actualizar la versión de RVM. Para 		ello ejecuté el siguiente comando:
 	
 	`$ rvm get stable`
-![instalacion de rvm](https://github.com/alu3286/SYTW_tareas_iniciales/blob/gh-pages/images/1.png)
+![instalacion de rvm](https://raw.githubusercontent.com/alu3286/SYTW_tareas_iniciales/gh-pages/images/1.png)
 
 * **Instalación de Ruby**
 	
