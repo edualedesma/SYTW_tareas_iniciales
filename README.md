@@ -16,6 +16,7 @@
 	Para comprobar la versión que tenemos que Ruby ejecutamos:
 	
 	`$ ruby -v`
+	
 ![instalacion de rvm](https://github.com/alu3286/SYTW_tareas_iniciales/blob/master/images/2.png)	
 
 * **Instalción de Git**
