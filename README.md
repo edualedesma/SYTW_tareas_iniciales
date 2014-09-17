@@ -7,7 +7,7 @@
 	
 	`$ rvm get stable`
 	
-![instalacion de rvm](https://raw.githubusercontent.com/alu3286/SYTW_tareas_iniciales/gh-pages/images/1.png)
+![Instalacion de RVM](https://raw.githubusercontent.com/alu3286/SYTW_tareas_iniciales/gh-pages/images/1.png)
 
 * **Instalación de Ruby**
 	
@@ -18,7 +18,7 @@
 	
 	`$ ruby -v`
 	
-	![instalacion de rvm](https://github.com/alu3286/SYTW_tareas_iniciales/blob/gh-pages/images/2.png)	
+	![instalacion de Ruby](https://raw.githubusercontent.com/alu3286/SYTW_tareas_iniciales/gh-pages/images/2.png)	
 
 * **Instalación de Git**
 
@@ -27,4 +27,4 @@
 
 	`$ git --version`
 
-	![instalacion de rvm](https://github.com/alu3286/SYTW_tareas_iniciales/blob/gh-pages/images/3.png)
+	![instalacion de Git](https://raw.githubusercontent.com/alu3286/SYTW_tareas_iniciales/gh-pages/images/3.png)
