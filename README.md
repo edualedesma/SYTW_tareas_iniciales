@@ -1,5 +1,5 @@
 #Instalación de RVM/Ruby y Git en Mac OS
-###Por Eduardo Javier Acuña Ledesma
+###Por Eduardo Javier Acuña Ledesma - Asignatura: SYTW
 
 * **Instalación de RVM**
 	
