@@ -10,10 +10,11 @@
 
 * **Instalación de Ruby**
 	
-	Para ello ejecutamos el comando:
+	Ya tenía una versión de Ruby instalada, con lo que no hizo falta una nueva instalación. Para comprobar la versión que tenemos que Ruby ejecutamos:
 	
 	`$ brew install ruby`
-	> Poner imagen
+![instalacion de rvm](https://github.com/alu3286/SYTW_tareas_iniciales/blob/master/images/2.png)	
+
 * **Instalción de Git**
 
 No hizo falta la instalación de git, puesto que previamente estaba instalado.
