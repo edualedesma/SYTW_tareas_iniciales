@@ -6,7 +6,7 @@
 	Como ya tenía una versión previa, sólo tuve que actualizar la versión de RVM. Para 		ello ejecuté el siguiente comando:
 	
 	`$ rvm get stable`
-![instalacion de rvm](https://github.com/alu3286/SYTW_tareas_iniciales/blob/master/images/1.png)
+![instalacion de rvm](https://github.com/alu3286/SYTW_tareas_iniciales/blob/gh-pages/images/1.png)
 
 * **Instalación de Ruby**
 	
@@ -17,7 +17,7 @@
 	
 	`$ ruby -v`
 	
-	![instalacion de rvm](https://github.com/alu3286/SYTW_tareas_iniciales/blob/master/images/2.png)	
+	![instalacion de rvm](https://github.com/alu3286/SYTW_tareas_iniciales/blob/gh-pages/images/2.png)	
 
 * **Instalación de Git**
 
@@ -26,4 +26,4 @@
 
 	`$ git --version`
 
-	![instalacion de rvm](https://github.com/alu3286/SYTW_tareas_iniciales/blob/master/images/3.png)
+	![instalacion de rvm](https://github.com/alu3286/SYTW_tareas_iniciales/blob/gh-pages/images/3.png)
