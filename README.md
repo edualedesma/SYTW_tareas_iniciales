@@ -17,10 +17,11 @@
 	
 	`$ ruby -v`
 	
-![instalacion de rvm](https://github.com/alu3286/SYTW_tareas_iniciales/blob/master/images/2.png)	
+	![instalacion de rvm](https://github.com/alu3286/SYTW_tareas_iniciales/blob/master/images/2.png)	
 
 * **Instalción de Git**
 
 No hizo falta la instalación de git, puesto que previamente estaba instalado.
-Para comprobar la vesión de git ejecutamos `$ git --version`
-> Poner imagen
+Para comprobar la vesión de git ejecutamos 
+`$ git --version`
+![instalacion de rvm](https://github.com/alu3286/SYTW_tareas_iniciales/blob/master/images/3.png)
