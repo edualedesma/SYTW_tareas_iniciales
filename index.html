@@ -35,38 +35,51 @@
 <a name="instalaci%C3%B3n-de-rvmruby-y-git-en-mac-os" class="anchor" href="#instalaci%C3%B3n-de-rvmruby-y-git-en-mac-os"><span class="octicon octicon-link"></span></a>Instalación de RVM/Ruby y Git en Mac OS</h1>
 
 <h3>
-<a name="por-eduardo-javier-acu%C3%B1a-ledesma" class="anchor" href="#por-eduardo-javier-acu%C3%B1a-ledesma"><span class="octicon octicon-link"></span></a>Por Eduardo Javier Acuña Ledesma</h3>
+<a name="por-eduardo-javier-acu%C3%B1a-ledesma---asignatura-sytw" class="anchor" href="#por-eduardo-javier-acu%C3%B1a-ledesma---asignatura-sytw"><span class="octicon octicon-link"></span></a>Por Eduardo Javier Acuña Ledesma - Asignatura: SYTW</h3>
 
 <ul>
 <li>
-<p><strong>Instalación de RVM</strong></p>
+<p><strong>Instalación de RVM y Ruby</strong></p>
 
-<p>Como ya tenía una versión previa, sólo tuve que actualizar la versión de RVM. Para      ello ejecuté el siguiente comando:</p>
+<p>Para la correcta instalación de RVM y para que no hayan conflictos con el usuario root, tenemos que realizar los siguientes pasos. En primer lugar, realizamos la instalación de RVM con el siguiente comando:</p>
 
-<p><code>$ rvm get stable</code>
-<img src="https://github.com/alu3286/SYTW_tareas_iniciales/blob/master/images/1.png" alt="instalacion de rvm"></p>
-</li>
-<li>
-<p><strong>Instalación de Ruby</strong></p>
+<p><code>$ \curl -sSL https://get.rvm.io | bash -s -- --autolibs=read-fail</code></p>
 
-<p>Ya tenía una versión de Ruby instalada, con lo que no hizo falta una nueva instalación. De todas formas, para llevar a cabo la instalación de ruby ejecutamos:
-<code>$ brew install ruby</code></p>
+<p><img src="https://raw.githubusercontent.com/alu3286/SYTW_tareas_iniciales/gh-pages/images/1.png" alt="Instalacion inicial de RVM"></p>
+
+<p>Luego ejecutamos lo siguiente e instalamos la versión 2.0.0:</p>
+
+<p><code>$ rvm autolibs disable</code></p>
+
+<p><code>$ rvm requirements</code></p>
+
+<p><code>$ rvm install 2.0.0</code></p>
+
+<p><img src="https://raw.githubusercontent.com/alu3286/SYTW_tareas_iniciales/gh-pages/images/2.png" alt="Instalacion final de RVM"></p>
+
+<p>Además también instalaremos la versión 1.9.3, y elegiremos por defecto la 2.0.0:</p>
+
+<p><code>$ rvm install 1.9.3</code></p>
+
+<p><code>$ rvm use 2.0.0</code></p>
+
+<p><img src="https://raw.githubusercontent.com/alu3286/SYTW_tareas_iniciales/gh-pages/images/3.png" alt="Instalacion de otra versión de Ruby"></p>
+
+<p><img src="https://raw.githubusercontent.com/alu3286/SYTW_tareas_iniciales/gh-pages/images/4.png" alt="Seleccionando una versión de Ruby"></p>
 
 <p>Para comprobar la versión que tenemos que Ruby ejecutamos:</p>
 
 <p><code>$ ruby -v</code></p>
-
-<p><img src="https://github.com/alu3286/SYTW_tareas_iniciales/blob/master/images/2.png" alt="instalacion de rvm"></p>
 </li>
 <li>
 <p><strong>Instalación de Git</strong></p>
 
-<p>No hizo falta la instalación de git, puesto que previamente estaba instalado.
-Para comprobar la vesión de git ejecutamos </p>
+<p>No hizo falta la instalación de git, puesto que previamente estaba instalado. <img src="http://git-scm.com/book/es/Empezando-Instalando-Git" alt="Aquí"> puede consular el manual de instalación de Git.
+Para comprobar la vesión de git ejecutamos: </p>
 
 <p><code>$ git --version</code></p>
 
-<p><img src="https://github.com/alu3286/SYTW_tareas_iniciales/blob/master/images/3.png" alt="instalacion de rvm"></p>
+<p><img src="https://raw.githubusercontent.com/alu3286/SYTW_tareas_iniciales/gh-pages/images/5.png" alt="instalacion de Git"></p>
 </li>
 </ul>
       </section>
