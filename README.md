@@ -32,13 +32,29 @@
 	Para comprobar la versión que tenemos que Ruby ejecutamos:
 	
 	`$ ruby -v`
-	
+
 
 * **Instalación de Git**
-
+	
 	No hizo falta la instalación de git, puesto que previamente estaba instalado. ![Aquí](http://git-scm.com/book/es/Empezando-Instalando-Git) puede consular el manual de instalación de Git.
 	Para comprobar la vesión de git ejecutamos: 
 
 	`$ git --version`
 
-	![instalacion de Git](https://raw.githubusercontent.com/alu3286/SYTW_tareas_iniciales/gh-pages/images/5.png)
+	![Instalacion de Git](https://raw.githubusercontent.com/alu3286/SYTW_tareas_iniciales/gh-pages/images/5.png)
+	
+* **Instalación de las gemas Sinatra y Twitter**
+		
+	Para la instalación de las gemas, lo primero que tenemos que hacer, dado que salía un mensaje de error de OpenSSL diciendo que no estaba instalado cuando realmente sí lo estaba, es cambiar la ruta del gem source como se muestra a continuación:
+		
+	![Mensaje de error](https://raw.githubusercontent.com/alu3286/SYTW_tareas_iniciales/gh-pages/images/6.png)
+		
+	![Modificando el gem source](https://raw.githubusercontent.com/alu3286/SYTW_tareas_iniciales/gh-pages/images/7.png)
+		
+	Luego procederemos a la instalación de la gema **sinatra**:
+		
+	![Instalando la gema Sinatra](https://raw.githubusercontent.com/alu3286/SYTW_tareas_iniciales/gh-pages/images/8.png)
+		
+	Finalmente instalamos la gema **twitter**:
+		
+	![Instalando la gema Twitter](https://raw.githubusercontent.com/alu3286/SYTW_tareas_iniciales/gh-pages/images/9.png)
